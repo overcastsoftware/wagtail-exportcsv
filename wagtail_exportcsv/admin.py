@@ -8,7 +8,7 @@ from wagtail.contrib.modeladmin.options import (ModelAdmin,
 from django.http import HttpResponse
 from django.utils.encoding import smart_str
 from django.contrib.auth.decorators import login_required
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.conf.urls import url
 from django.utils.translation import ugettext as _
 from django.utils.decorators import method_decorator
